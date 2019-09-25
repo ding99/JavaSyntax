@@ -1,2 +1,2 @@
 # JavaSyntax
-Java Syntax Check
+Java syntax check
