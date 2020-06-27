@@ -1,6 +1,6 @@
 package util.args;
 import java.util.Iterator;
 
-public interface ArgumentMarshaller {
+public interface ArgumentMarshaler {
     void set(Iterator<String> currentArgument) throws ArgsException;
 }

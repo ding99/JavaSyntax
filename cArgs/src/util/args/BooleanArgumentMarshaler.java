@@ -3,7 +3,7 @@ package util.args;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class BooleanArgumentMarshaller implements ArgumentMarshaller {
+public class BooleanArgumentMarshaler implements ArgumentMarshaler {
     private boolean booleanValue = false;
 
     @Override
@@ -15,9 +15,9 @@ public class BooleanArgumentMarshaller implements ArgumentMarshaller {
         }
     }
 
-    public static boolean getValue(ArgumentMarshaller am) {
-        if ((am != null) && am instanceof BooleanArgumentMarshaller) {
-            return ((BooleanArgumentMarshaller) am).booleanValue;
+    public static boolean getValue(ArgumentMarshaler am) {
+        if ((am != null) && am instanceof BooleanArgumentMarshaler) {
+            return ((BooleanArgumentMarshaler) am).booleanValue;
         } else {
             return false;
         }

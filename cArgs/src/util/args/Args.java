@@ -5,7 +5,7 @@ import static util.args.ArgsException.ErrorCode.*;
 
 
 public class Args {
-    private Map<Character, ArgumentMarshaller> marshallers = new HashMap<Character, ArgumentMarshaller>();
+    private Map<Character, ArgumentMarshaler> marshalers = new HashMap<Character, ArgumentMarshaler>();
     private Set<Character> argsFound = new HashSet<Character>();
     private int noOfArguments = 0;
     private Iterator<String> currentArgument;
@@ -28,13 +28,13 @@ public class Args {
 
 
         if (elementTail.length() == 0)
-            marshallers.put(elementId, new BooleanArgumentMarshaller());
+            marshalers.put(elementId, new BooleanArgumentMarshaler());
         else if (elementTail.equals("*"))
-            marshallers.put(elementId, new StringArgumentMarshaller());
+            marshalers.put(elementId, new StringArgumentMarshaler());
         else if (elementTail.equals("#")) {
-            marshallers.put(elementId, new IntegerArgumentMarshaller());
+            marshalers.put(elementId, new IntegerArgumentMarshaler());
         } else if (elementTail.equals("##")) {
-            marshallers.put(elementId, new DoubleArgumentMarshaller());
+            marshalers.put(elementId, new DoubleArgumentMarshaler());
         } else {
             throw new ArgsException(INVALID_ARGUMENT_FORMAT, elementId, elementTail);
         }
@@ -56,7 +56,7 @@ public class Args {
                 break;
             }
         }
-        if ((marshallers.size() > 0) && (noOfArguments == 0)) {
+        if ((marshalers.size() > 0) && (noOfArguments == 0)) {
             throw new ArgsException(INVALID_ARGUMENT_FORMAT, '-');
         }
     }
@@ -68,7 +68,7 @@ public class Args {
     }
 
     private void parseArgumentCharacter(final char argChar) throws ArgsException {
-        ArgumentMarshaller m = marshallers.get(argChar);
+        ArgumentMarshaler m = marshalers.get(argChar);
         if (m == null) {
             throw new ArgsException(UNEXPECTED_ARGUMENT, argChar);
         }
@@ -86,19 +86,19 @@ public class Args {
     }
 
     public String getString(char arg) {
-        return StringArgumentMarshaller.getValue(marshallers.get(arg));
+        return StringArgumentMarshaler.getValue(marshalers.get(arg));
     }
 
     public int getInt(char arg) {
-        return IntegerArgumentMarshaller.getValue(marshallers.get(arg));
+        return IntegerArgumentMarshaler.getValue(marshalers.get(arg));
     }
 
     public boolean getBoolean(char arg) {
-        return BooleanArgumentMarshaller.getValue(marshallers.get(arg));
+        return BooleanArgumentMarshaler.getValue(marshalers.get(arg));
     }
 
     public double getDouble(char arg) {
-        return DoubleArgumentMarshaller.getValue(marshallers.get(arg));
+        return DoubleArgumentMarshaler.getValue(marshalers.get(arg));
     }
 
     public boolean has(char arg) {
