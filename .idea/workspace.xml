@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1f1f3d-feef-48c8-9b98-22398fed93c9" name="Default Changelist" comment="" />
+    <list default="true" id="3e1f1f3d-feef-48c8-9b98-22398fed93c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/Args.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/Args.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/ArgumentMarshaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/ArgumentMarshaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/BooleanArgumentMarshaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/BooleanArgumentMarshaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/DoubleArgumentMarshaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/DoubleArgumentMarshaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/IntegerArgumentMarshaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/IntegerArgumentMarshaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cArgs/src/util/args/StringArgumentMarshaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cArgs/src/util/args/StringArgumentMarshaller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

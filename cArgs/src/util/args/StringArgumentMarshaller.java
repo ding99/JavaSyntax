@@ -3,7 +3,7 @@ package util.args;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class StringArgumentMarshaler implements ArgumentMarshaler {
+public class StringArgumentMarshaller implements ArgumentMarshaller {
     private String stringValue;
 
     @Override
@@ -15,9 +15,9 @@ public class StringArgumentMarshaler implements ArgumentMarshaler {
         }
     }
 
-    public static String getValue(ArgumentMarshaler am) {
-        if ((am != null) && am instanceof StringArgumentMarshaler) {
-            return ((StringArgumentMarshaler) am).stringValue;
+    public static String getValue(ArgumentMarshaller am) {
+        if ((am != null) && am instanceof StringArgumentMarshaller) {
+            return ((StringArgumentMarshaller) am).stringValue;
         } else {
             return "";
         }
