@@ -3,7 +3,6 @@ package util.args;
 import java.util.*;
 import static util.args.ArgsException.ErrorCode.*;
 
-
 public class Args {
     private Map<Character, ArgumentMarshaler> marshalers = new HashMap<Character, ArgumentMarshaler>();
     private Set<Character> argsFound = new HashSet<Character>();
@@ -25,7 +24,6 @@ public class Args {
         char elementId = element.charAt(0);
         String elementTail = element.substring(1);
         validateSchemaElementId(elementId);
-
 
         if (elementTail.length() == 0)
             marshalers.put(elementId, new BooleanArgumentMarshaler());
