@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e1f1f3d-feef-48c8-9b98-22398fed93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cArgs/src/main/java/Entrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/Args.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/ArgsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/ArgumentMarshaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/BooleanArgumentMarshaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/DoubleArgumentMarshaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/IntegerArgumentMarshaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cArgs/src/util/args/StringArgumentMarshaller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e1f1f3d-feef-48c8-9b98-22398fed93c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +129,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2609" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593281824262" />
+    <state x="2533" y="123" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593291273811">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2533" y="123" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593291273811" />
     <state x="2507" y="93" key="CommitChangelistDialog2" timestamp="1593280706135">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -148,22 +141,22 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2645" y="314" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593278563785" />
-    <state width="938" height="352" key="GridCell.Tab.0.bottom" timestamp="1593286889793">
+    <state width="1043" height="324" key="GridCell.Tab.0.bottom" timestamp="1593291651677">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593286889793" />
-    <state width="938" height="352" key="GridCell.Tab.0.center" timestamp="1593286889793">
+    <state width="1043" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593291651677" />
+    <state width="1043" height="324" key="GridCell.Tab.0.center" timestamp="1593291651677">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="352" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593286889793" />
-    <state width="938" height="352" key="GridCell.Tab.0.left" timestamp="1593286889793">
+    <state width="1043" height="324" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593291651677" />
+    <state width="1043" height="324" key="GridCell.Tab.0.left" timestamp="1593291651677">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="352" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593286889793" />
-    <state width="938" height="352" key="GridCell.Tab.0.right" timestamp="1593286889793">
+    <state width="1043" height="324" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593291651677" />
+    <state width="1043" height="324" key="GridCell.Tab.0.right" timestamp="1593291651677">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="352" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593286889793" />
+    <state width="1043" height="324" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593291651677" />
     <state width="938" height="352" key="GridCell.Tab.1.bottom" timestamp="1593286889793">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
