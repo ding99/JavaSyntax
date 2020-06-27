@@ -11,7 +11,7 @@ public class Action {
 
     private void testMap(Optional<String> opt){
         Optional<String> upperName = opt.map((value) -> value.toUpperCase());
-        System.out.println(upperName.orElse("No name found"));
+        System.out.println(upperName.orElse("No value found"));
     }
 
     private void testFlatMap(Optional<String> opt){
@@ -25,8 +25,8 @@ public class Action {
     }
 
     public void vary(){
-        //region null
-        System.out.println("-- null");
+        //region null. if of() received a null, an exception will be caused
+        System.out.println("-- null (Exception if of() receives a null)");
         Optional<String> someNull;
         try {
             someNull = Optional.of(null);
@@ -37,21 +37,21 @@ public class Action {
         //endregion
 
         Optional<String> name = Optional.of("Steve");
-        Optional empty = Optional.ofNullable(null);
+        Optional empty = Optional.ofNullable(null); //ofNullable() may receive a null
 
         //region ifPresent
-        System.out.println("-- ifPresent");
-        name.ifPresent((value) -> { System.out.println("value length " + value.length()); });
+        System.out.println("-- ifPresent (use Consumer<T> interface)");
+        name.ifPresent((value) -> { System.out.println("value (" + value + ") length " + value.length()); });
         //endregion
 
         //region orElse
-        System.out.println("-- orElse");
+        System.out.println("-- orElse (use specific default if null)");
         System.out.println(empty.orElse("no value present"));
         System.out.println(name.orElse("some value"));
         //endregion
 
         //region orElseGet
-        System.out.println("-- orElseGet");
+        System.out.println("-- orElseGet (use default for Supplier<T> interface if null)");
         System.out.println(empty.orElseGet(() -> "default value"));
         System.out.println(name.orElseGet(() -> "default value"));
         //endregion
