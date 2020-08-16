@@ -12,13 +12,14 @@ public class Entrance {
         System.out.println("== Start");
 
         try {
-            Args arg = new Args("l,p#,d*", args);
+            Args arg = new Args("l,p#,d*,t#", args);
 
             boolean logging = arg.getBoolean('l');
             int port = arg.getInt('p');
             String dir = arg.getString('d');
+            int time = arg.getInt('t');
 
-            System.out.println("logging " + logging + ", port " + port + ", dir " + dir);
+            System.out.println("logging " + logging + ", port " + port + ", dir " + dir + ", duration " + time);
         }
         catch(ArgsException e){
             System.out.printf("Argument error:%s\n", e.errorMessage());
