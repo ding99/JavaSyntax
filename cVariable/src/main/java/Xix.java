@@ -5,7 +5,7 @@ public class Xix {
     public String str2  ="non-static member";
 
     public static void method(){
-        str = "sss";
+        //str = "sss";
         System.out.println("This is a static method not relative with any object. str [" + str + "]");
     }
 
