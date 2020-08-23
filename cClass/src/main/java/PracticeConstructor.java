@@ -9,5 +9,6 @@ public class PracticeConstructor {
 
     void Display(){
         System.out.println("x " + x + ", y " + y);
+        System.out.println(String.format("Use format(): x %d, y %d", x, y));
     }
 }
