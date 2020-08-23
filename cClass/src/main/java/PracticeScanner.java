@@ -1,5 +1,9 @@
 package main.java;
 
+/**
+ * Created by dingw on 8/23/2020.
+ */
+
 import java.util.Scanner;
 
 public class PracticeScanner {

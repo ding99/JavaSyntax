@@ -1,5 +1,9 @@
 package main.java;
 
+/**
+ * Created by dingw on 8/23/2020.
+ */
+
 public class PracticeConstructor {
     int x = 1, y = 2;
 

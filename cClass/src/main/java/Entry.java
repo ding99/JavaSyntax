@@ -10,10 +10,7 @@ public class Entry {
         System.out.println("== Start");
         new Action().work();
 
-        System.out.println("=> Practice default access modifier");
-        OuterClass outer = new OuterClass();
-        OuterClass.InnerClass inter = new OuterClass.InnerClass();
-        System.out.println("Start-Inner Class: (" + outer.x + "," + inter.y + ")");
+        new PracticeNest().Start();
 
         System.out.println("=> Practice constructor");
         PracticeConstructor pc = new PracticeConstructor(2,2);
