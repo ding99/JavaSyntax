@@ -19,6 +19,8 @@ public class Entry {
         PracticeConstructor pc = new PracticeConstructor(2,2);
         pc.Display();
 
+        new OOPer().Start();
+
         System.out.println("== End");
     }
 
