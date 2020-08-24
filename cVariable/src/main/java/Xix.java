@@ -20,5 +20,7 @@ public class Xix {
         Xix x = new Xix();
         x.method2();
         x.method();
+
+        new PracticeTime().Start();
     }
 }
