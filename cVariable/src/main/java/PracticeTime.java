@@ -6,9 +6,7 @@ package main.java;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.HashSet;
+import java.util.*;
 
 public class PracticeTime {
     void Start(){
@@ -22,6 +20,7 @@ public class PracticeTime {
 
         Lists();
         HashSets();
+        Iteration();
     }
 
     void Lists(){
@@ -42,6 +41,18 @@ public class PracticeTime {
         System.out.println("Volvo existing: (" + cars.contains("Volvo") + ")");
         System.out.println("Remove Volvo"); cars.remove("Volvo");
         for(String c : cars) System.out.print(c + " ");
+        System.out.println();
+    }
+
+    void Iteration(){
+        System.out.println("=> Iteration");
+        ArrayList<String> cars = new ArrayList<>();
+        cars.add("BMW"); cars.add("Volvo"); cars.add("Mazda"); cars.add("Ford");
+        Iterator<String> it = cars.iterator();
+        while(it.hasNext()) System.out.print(it.next() + " ");
+        System.out.println();
+        int size = cars.size();
+        for(int i = 0; i < size; i++) System.out.print(cars.get(i) + " ");
         System.out.println();
     }
 }
