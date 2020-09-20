@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class Lists {
 
@@ -15,6 +16,18 @@ public class Lists {
         AList();
         LinkList();
         HMap();
+        HSet();
+    }
+
+    private void HSet() {
+        System.out.println("-- HashSet");
+        HashSet<String> cars = new HashSet<>();
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("Mazda");
+        cars.add("BMW");
+        System.out.println(cars + " size " + cars.size());
     }
 
     private void HMap(){
@@ -68,6 +81,7 @@ public class Lists {
         cars.add("BMW");
         cars.add("Ford");
         cars.add("Mazda");
+        cars.add("BMW");
         System.out.println(cars);
         Collections.sort(cars);
         System.out.println(cars);
