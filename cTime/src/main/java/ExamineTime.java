@@ -17,5 +17,11 @@ public class ExamineTime {
         System.out.println("Before formatting: " + datetime);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         System.out.println("After  formatting: " + formatter.format(datetime));
+
+        System.out.println("-- More patterns:");
+        System.out.println("yyyy-MM-dd: " + DateTimeFormatter.ofPattern("yyyy-MM-dd").format(datetime));
+        System.out.println("dd/MM/yyyy: " + DateTimeFormatter.ofPattern("dd/MM/yyyy").format(datetime));
+        System.out.println("dd-MMM-yyyy: " + DateTimeFormatter.ofPattern("dd-MMM-yyyy").format(datetime));
+        System.out.println("E, MMM dd yyyy: " + DateTimeFormatter.ofPattern("E, MMM dd yyyy").format(datetime));
     }
 }
