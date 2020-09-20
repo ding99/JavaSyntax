@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cClass/cClass.iml" filepath="$PROJECT_DIR$/cClass/cClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/cFilter/cFilter.iml" filepath="$PROJECT_DIR$/cFilter/cFilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/cOptional/cOptional.iml" filepath="$PROJECT_DIR$/cOptional/cOptional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cString/cString.iml" filepath="$PROJECT_DIR$/cString/cString.iml" />
       <module fileurl="file://$PROJECT_DIR$/cVariable/cVariable.iml" filepath="$PROJECT_DIR$/cVariable/cVariable.iml" />
     </modules>
   </component>
