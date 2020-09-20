@@ -24,13 +24,28 @@ public class Lists {
         cities.put("Germany","Berlin");
         cities.put("Norway","London");
         cities.put("USA","Washington DC");
-        System.out.println(cities + ", size " + cities.size());
-        System.out.println("Norway <" + cities.get("Norway") + ">");
+        System.out.println(cities + " size " + cities.size());
+        System.out.println("get: Norway <" + cities.get("Norway") + ">, then remove Germany");
         cities.remove("Germany");
-        System.out.println(cities + ", size " + cities.size());
-
+        System.out.println(cities + " size " + cities.size());
+        System.out.print("Cities:");
         for(String i : cities.keySet())
-            System.out.println("  <" + i + "> value <" + cities.get(i) + ">");
+            System.out.print(" <" + i + ">/<" + cities.get(i) + ">");
+        System.out.println();
+
+        HashMap<String, Integer> ages = new HashMap<>();
+        ages.put("John", 32);
+        ages.put("Mike", 36);
+        ages.put("Mark", 28);
+        System.out.println(ages + " size " + ages.size());
+        System.out.print("Keys:");
+        for(String i : ages.keySet())
+            System.out.print("  <" + i + ">");
+        System.out.println();
+        System.out.print("Values:");
+        for(Integer i : ages.values())
+            System.out.print("  <" + i + ">");
+        System.out.println();
     }
 
     private void LinkList(){
