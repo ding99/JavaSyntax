@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Lists {
 
@@ -28,6 +29,7 @@ public class Lists {
         cars.add("Mazda");
         cars.add("BMW");
         System.out.println(cars + " size " + cars.size());
+        System.out.println("Containing <Ford>: " + cars.contains("Ford") + ", Containing <Toyota>: " + cars.contains("Toyota"));
     }
 
     private void HMap(){
@@ -83,7 +85,22 @@ public class Lists {
         cars.add("Mazda");
         cars.add("BMW");
         System.out.println(cars);
+
+        System.out.println("-- Iterator");
+        Iterator<String> it = cars.iterator();
+        System.out.println("next: <" + it.next() + ">");
+        System.out.print("Loop:");
+        while(it.hasNext())
+            System.out.print(" " + it.next());
+        System.out.println();
+
+        System.out.println("-- sort");
         Collections.sort(cars);
         System.out.println(cars);
+        it = cars.iterator();
+        System.out.print("Loop:");
+        while(it.hasNext())
+            System.out.print(" " + it.next());
+        System.out.println();
     }
 }
