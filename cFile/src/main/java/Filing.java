@@ -7,6 +7,8 @@ package main.java;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class Filing {
     String name = "d:\\test\\testJava\\testwrite01.txt";
@@ -15,6 +17,24 @@ public class Filing {
         System.out.println("-- start Filing");
         Creating();
         Writing();
+        Reading();
+    }
+
+    private void Reading(){
+        System.out.println("-- Read file");
+        try{
+            File file = new File(name);
+            Scanner reader = new Scanner(file);
+            while(reader.hasNextLine()){
+                String data = reader.nextLine();
+                System.out.println(data);
+            }
+            reader.close();
+        } catch(FileNotFoundException e){
+            System.out.println("An error occurred.");
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 
     private void Writing(){
