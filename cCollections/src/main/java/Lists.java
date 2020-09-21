@@ -28,6 +28,7 @@ public class Lists {
         cars.add("Mazda");
         cars.add("BMW");
         System.out.println(cars + " size " + cars.size());
+        System.out.println("Containing <Ford>: " + cars.contains("Ford") + ", Containing <Toyota>: " + cars.contains("Toyota"));
     }
 
     private void HMap(){
