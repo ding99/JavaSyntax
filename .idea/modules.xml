@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cCollections/cCollections.iml" filepath="$PROJECT_DIR$/cCollections/cCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/cFile/cFile.iml" filepath="$PROJECT_DIR$/cFile/cFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/cFilter/cFilter.iml" filepath="$PROJECT_DIR$/cFilter/cFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cLambda/cLambda.iml" filepath="$PROJECT_DIR$/cLambda/cLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/cOptional/cOptional.iml" filepath="$PROJECT_DIR$/cOptional/cOptional.iml" />
       <module fileurl="file://$PROJECT_DIR$/cRegEx/cRegEx.iml" filepath="$PROJECT_DIR$/cRegEx/cRegEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/cString/cString.iml" filepath="$PROJECT_DIR$/cString/cString.iml" />
