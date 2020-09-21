@@ -22,5 +22,6 @@ public class Xix {
         x.method();
 
         new PracticeTime().Start();
+        new Wrapping().Start();
     }
 }
