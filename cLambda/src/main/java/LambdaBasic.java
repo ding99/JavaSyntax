@@ -19,9 +19,11 @@ public class LambdaBasic {
 
         Greeting service1 = message -> System.out.println("Hello " + message);
         Greeting service2 = (message) -> System.out.println("Hi " + message);
+        Greeting service3 = (String message) -> { System.out.println("Hey " + message); };
 
         service1.sayMessage("Baidu");
         service2.sayMessage("Google");
+        service3.sayMessage("Yahoo");
     }
     private int operate(int a, int b, MathOperation mathOperation){
         return mathOperation.operation(a, b);
