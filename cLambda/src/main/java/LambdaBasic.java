@@ -12,13 +12,20 @@ public class LambdaBasic {
         MathOperation multiplication = (int a, int b) -> { return a * b; };
         MathOperation division = (a, b) -> a / b;
 
-        System.out.println("10 + 5 = " + tester.operate(10,5,addition));
-        System.out.println("10 - 5 = " + tester.operate(10,5,subtraction));
-        System.out.println("10 x 5 = " + tester.operate(10,5,multiplication));
-        System.out.println("10 / 5 = " + tester.operate(10,5,division));
+        System.out.println("10 + 5 = " + tester.operate(10,5, addition));
+        System.out.println("10 - 5 = " + tester.operate(10,5, subtraction));
+        System.out.println("10 x 5 = " + tester.operate(10,5, multiplication));
+        System.out.println("10 / 5 = " + tester.operate(10,5, division));
+
+        Greeting service1 = message -> System.out.println("Hello " + message);
+        Greeting service2 = (message) -> System.out.println("Hi " + message);
+
+        service1.sayMessage("Baidu");
+        service2.sayMessage("Google");
     }
     private int operate(int a, int b, MathOperation mathOperation){
         return mathOperation.operation(a, b);
     }
     interface MathOperation { int operation(int a, int b); }
+    interface Greeting { void sayMessage(String message); }
 }
