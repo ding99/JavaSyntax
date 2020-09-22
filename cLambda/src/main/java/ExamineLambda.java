@@ -9,5 +9,6 @@ public class ExamineLambda {
         System.out.println("Examine Lambda Expression");
 
         LambdaBasic.Operator();
+        new FunctionalInterface().Start();
     }
 }
