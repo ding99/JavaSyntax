@@ -7,5 +7,8 @@ package main.java;
 public class ExamineLambda {
     public void Start(){
         System.out.println("Examine Lambda Expression");
+
+        LambdaBasic.Operator();
+        new FunctionalInterface().Start();
     }
 }
