@@ -23,5 +23,6 @@ public class Xix {
 
         new PracticeTime().Start();
         new Wrapping().Start();
+        new Keywords().Start();
     }
 }
