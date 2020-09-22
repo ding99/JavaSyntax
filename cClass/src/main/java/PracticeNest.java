@@ -18,5 +18,9 @@ public class PracticeNest {
         Outer2Class outer2 = new Outer2Class();
         Outer2Class.Inner2Class inter2 = outer2.new Inner2Class();
         System.out.println("Start-Outer Class: (" + outer2.x + "," + inter2.y + ")");
+
+        System.out.println("-> Outer accesses Inner private variable");
+        Outer3 outer3 = new Outer3();
+        outer3.print();
     }
 }
