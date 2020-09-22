@@ -16,6 +16,10 @@ public class FunctionalInterface {
         eval("All numbers", list, n -> true);
         eval("All even", list, n -> n%2 == 0);
         eval("Larger than 3", list, n -> n > 3);
+
+        System.out.print("<Using filter> ");
+        list.stream().filter(n -> n > 3).forEach(System.out::print);
+        System.out.println();
     }
 
     private void eval(String title, List<Integer> list, Predicate<Integer> preficate){
