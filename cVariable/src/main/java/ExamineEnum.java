@@ -23,6 +23,7 @@ public class ExamineEnum {
         //System.out.printf("%s,%s,%s", Element[0],Element[0].symbol,Element[0].nature);
         System.out.printf("%s,%s,%s", Element.HELIUM,Element.HELIUM.chemicalSymbol(),Element.HELIUM.type());
         //System.out.printf("%s,%s,%s", Element.HELIUM,Element.toString().HELIUM.chemicalSymbol(),Element.HELIUM.type());
+        System.out.println();
     }
 
     /** result: HELIUM,He,Gas **/
