@@ -21,5 +21,7 @@ public class Entrance {
         Gen.Start();
 
         new Reducing().ExamineReduce();
+        new ExamineEnum().Start();
+        new ExamineCompare().Start();
     }
 }
