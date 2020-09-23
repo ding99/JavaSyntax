@@ -5,12 +5,10 @@ package main.java;
  */
 public class Son extends Parent {
     void GFG(){
-        System.out.println("a = " + a);
-        System.out.println("x = " + x);
+        System.out.println("a = " + a + ", x = " + x);
 
         super.a = 1;
         x = 60.3f;
-        System.out.println("a = " + a);
-        System.out.println("x = " + super.x);
+        System.out.println("a = " + a + ", x = " + super.x);
     }
 }
