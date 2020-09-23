@@ -3,6 +3,7 @@ package main.java;
 /**
  * Created by ding_ on 9/22/2020
  */
+
 public class Operation {
     public void Casting(){
         int a = 9, b = 2;

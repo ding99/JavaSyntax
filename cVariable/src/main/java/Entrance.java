@@ -18,5 +18,8 @@ public class Entrance {
         op.Casting();
 
         PrivateVariable.Start();
+        Gen.Start();
+
+        new Reducing().ExamineReduce();
     }
 }
