@@ -3,9 +3,10 @@ package main.java;
 /**
  * Created by ding_ on 9/23/2020
  */
+
 public class PrivateVariable {
     public PrivateVariable(){ this(10); }
-    public PrivateVariable(int data){ this.data = data;}
+    public PrivateVariable(int data){ this.data = data; }
     public void display(){
         class Decrementer{
             public void decrement(){ data--; }
