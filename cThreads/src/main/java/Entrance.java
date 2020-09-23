@@ -14,5 +14,7 @@ public class Entrance {
             System.out.println("Error: " + e.getMessage());
         }
         System.out.println("== End");
+
+        new UseLogger().Using();
     }
 }
