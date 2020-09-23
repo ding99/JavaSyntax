@@ -19,5 +19,7 @@ public class Entrance {
 
         PrivateVariable.Start();
         Gen.Start();
+
+        new Reducing().ExamineReduce();
     }
 }
