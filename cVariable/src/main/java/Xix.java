@@ -15,14 +15,4 @@ public class Xix {
         method();
         System.out.println("This is a non-static method. str [" + str + "] str2 [" + str2 + "]");
     }
-
-    public static void main(String[] args){
-        Xix x = new Xix();
-        x.method2();
-        x.method();
-
-        new PracticeTime().Start();
-        new Wrapping().Start();
-        new Keywords().Start();
-    }
 }
