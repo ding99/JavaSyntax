@@ -16,5 +16,7 @@ public class Entrance {
 
         Operation op = new Operation();
         op.Casting();
+
+        PrivateVariable.Start();
     }
 }
