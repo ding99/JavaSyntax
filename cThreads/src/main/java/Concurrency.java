@@ -19,7 +19,7 @@ public class Concurrency {
                 }
             }, "Thread" + i).start();
         }
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         System.out.println("Final number: " + ce.getCount());
     }
 
