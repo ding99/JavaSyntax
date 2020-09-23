@@ -13,5 +13,8 @@ public class Entrance {
         new PracticeTime().Start();
         new Wrapping().Start();
         new Keywords().Start();
+
+        Operation op = new Operation();
+        op.Casting();
     }
 }
