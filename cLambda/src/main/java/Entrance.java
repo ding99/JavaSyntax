@@ -9,6 +9,7 @@ public class Entrance {
         System.out.println("== Start");
         new ExamineLambda().Start();
         new UsePredicate().Start();
+        new ExamineSupplier().Start();
         System.out.println("== End");
     }
 }
