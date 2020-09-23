@@ -10,7 +10,8 @@ public class Entrance {
         try { Concurrency.Start(); }
         catch (InterruptedException e){ System.out.println("Error: " + e.getMessage()); }
 
-        new UseLogger().Using();
+        new UseLogger().UseBase();
+        new UseLogger().UseTest();
 
         System.out.println("== End");
     }
