@@ -18,5 +18,6 @@ public class Entrance {
         op.Casting();
 
         PrivateVariable.Start();
+        Gen.Start();
     }
 }

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e1f1f3d-feef-48c8-9b98-22398fed93c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cVariable/src/main/java/PrivateVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cVariable/src/main/java/Gen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cVariable/src/main/java/Entrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/cVariable/src/main/java/Entrance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cVariable/src/main/java/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/cVariable/src/main/java/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cVariable/src/main/java/PrivateVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/cVariable/src/main/java/PrivateVariable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,6 +280,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2375" y="254" width="861" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1593284659596" />
+    <state x="3022" y="119" width="585" height="801" key="find.popup" timestamp="1600862436905">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="3022" y="119" width="585" height="801" key="find.popup/0.0.1920.1048/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600862436905" />
     <state x="1996" y="210" key="new project wizard" timestamp="1600727201949">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
